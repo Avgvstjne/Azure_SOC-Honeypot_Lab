@@ -49,11 +49,11 @@ SecurityEvent
 ## 📊 Visualizations
 
 ### Global Attacker Heatmap
-https://github.com/Avgvstjne/Azure_SOC-Honeypot_Lab/blob/main/docs/Screenshot%202026-04-18%20211210.png
+![Attacker heatmap](https://github.com/Avgvstjne/Azure_SOC-Honeypot_Lab/blob/main/docs/Screenshot%202026-04-18%20211210.png)
 This map visualizes the geographical origin of thousands of brute-force attempts within 24 hours of system exposure.
 
 ### Log Analytics Verification
-https://github.com/Avgvstjne/Azure_SOC-Honeypot_Lab/blob/main/docs/Screenshot%202026-04-18%20201455.png
+![Log Analytics](https://github.com/Avgvstjne/Azure_SOC-Honeypot_Lab/blob/main/docs/Screenshot%202026-04-18%20201455.png)
 Verification that Event ID 4625 logs are successfully flowing into the workspace.
 
 ---
