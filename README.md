@@ -1,7 +1,7 @@
 # Azure SOC / Honeypot Lab: Global Threat Visualization
 
 ## 🛡️ Introduction
-This project involved the deployment of a **Cloud-Native SOC (Security Operations Center)** using **Microsoft Sentinel** and a **Windows Virtual Machine** acting as a honeypot. The primary goal was to expose the VM to the public internet, ingest security logs into a Log Analytics Workspace, and visualize global brute-force attacks in real-time using **Kusto Query Language (KQL)** and Azure Workbooks.
+This project involved the deployment of a **Cloud-Native SOC** using **Microsoft Sentinel** and a **Windows Virtual Machine** acting as a honeypot. The primary goal was to expose the VM to the public internet, ingest security logs into a Log Analytics Workspace, and visualize global brute-force attacks in real-time using **Kusto Query Language (KQL)** and Azure Workbooks.
 
 ## 🏗️ Technologies & Tools Used
 * **Azure Virtual Machine:** Windows-based "victim" system.
@@ -49,12 +49,16 @@ SecurityEvent
 ## 📊 Visualizations
 
 ### Global Attacker Heatmap
-> **[INSERT SCREENSHOT OF YOUR MAP HERE]*
-*This map visualizes the geographical origin of thousands of brute-force attempts within 24 hours of system exposure.*
+https://github.com/Avgvstjne/Azure_SOC-Honeypot_Lab/blob/main/docs/Screenshot%202026-04-18%20211210.png
+This map visualizes the geographical origin of thousands of brute-force attempts within 24 hours of system exposure.
 
 ### Log Analytics Verification
-> **[INSERT SCREENSHOT OF YOUR DATA SOURCE / LOGS HERE]**
-*Verification that Event ID 4625 logs are successfully flowing into the workspace.*
+https://github.com/Avgvstjne/Azure_SOC-Honeypot_Lab/blob/main/docs/Screenshot%202026-04-18%20201455.png
+Verification that Event ID 4625 logs are successfully flowing into the workspace.
+
+---
+
+[more screenshots](https://github.com/Avgvstjne/Azure_SOC-Honeypot_Lab/blob/main/docs/SOC_Lab_Screenshots.pdf)
 
 ---
 
